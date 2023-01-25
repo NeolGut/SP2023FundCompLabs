@@ -22,7 +22,7 @@ int main(){
     fGoals = fGoals * 3;
     safeties = safeties * 2;
 
-    printf ("Total Score: %d",(touchD + extraP + fGoals + safeties));
+    printf ("Total Score: %d\n",(touchD + extraP + fGoals + safeties));
 
     return 0;
 }

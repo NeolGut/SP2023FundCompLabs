@@ -18,7 +18,7 @@ int main(){
     scanf("%f",&sideB);
 
     sideC = sqrt(pow(sideA,2)+pow(sideB,2)); // using the pow command to square each side, then adding them together and using the sqrt command
-    printf("The hyptoenus side has a length of %f",sideC );
+    printf("The hyptoenus side has a length of %f\n",sideC );
 
     return 0;
 }
