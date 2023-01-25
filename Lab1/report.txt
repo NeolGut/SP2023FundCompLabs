@@ -1,6 +1,12 @@
-Part 1: Football Score Formula
+Neol Gutierrez
 
+For part 2, I chose to make a Pythagorean theorem calculator which takes input from
+legs a and b and solves for the hypotenuse, c.
 
+the program takes two inputs from the user and inserts them into an addition equation between
+two pow() commands which raises the numbers to the second power. Then after adding, it square 
+roots the sum and prints the answer. All numbers are in float since we are using the sqrt() 
+function. 
 
-
-Part 2: Formula Calculator
+I tested it by using an online scientific calculator and compared the results. There are cases
+where it is not as precise as the scientific calculator due to the limitations of float types.
