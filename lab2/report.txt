@@ -1,0 +1,28 @@
+Neol Gutierrez
+
+For part 3, when the user runs the program. It will display the function being used, 
+3 * (sin(x) + x^(.5)) ranging y-values from 0 to 30.0. The user will see lines of #'s 
+forming the graph of the function with the x-values and y-values on the left side. Then at 
+the end, the maximum and minimum values will be displayed with their corresponding x-values.
+
+Internally, the function creates double variables for the lower bound, upper bound, intervals,
+and y value of the function. Min and max double arrays are made to store the max and min
+values in the first position and the corresponding x-value in the second position. I used 
+arrays in order to not make as many variables with confusing names. 
+
+After displaying the equation and range, the function will start a for loop that calculates the 
+first y value of x, which is 0, then it will check to see if it's greater than the max value stored 
+at max[0] and also check if the value is less the min value stored at min[0]. It will print
+the values then it will round the y-value up and use that rounded value in a for loop that 
+prints #'s as many times as the rounded y-value and place a new line when done. This entire 
+process is repeated until the i value in the original for loop is greater than the upper 
+bound as it increments each time by 0.20. 
+
+I verified the results of this code by using the desmos.com graphing calculator to visually 
+display the graph and the y-values at any given position. Due to how c handles doubles, 
+some answers varied from the calculator.
+
+
+
+
+
